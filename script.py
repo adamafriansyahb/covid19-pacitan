@@ -5,10 +5,10 @@ from datetime import datetime, timedelta
 
 mydb = mysql.connector.connect(
   host="localhost",
-  port = 8889,
-  user="root",
-  password="root",
-  database="covid_pacitan"
+  port = ,
+  user="db_username",
+  password="db_password",
+  database="db_name"
 )
 
 sql = mydb.cursor()
